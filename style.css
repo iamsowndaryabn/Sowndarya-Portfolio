@@ -1875,3 +1875,64 @@ header {
     cursor: wait;
     transform: none;
 }
+/* =========================
+   MOBILE CONTACT ALIGNMENT
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .contact-section {
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    .contact-section .section-heading {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-section .section-heading h2 {
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .contact-section .section-heading p {
+        text-align: center;
+        max-width: 100%;
+        margin: 12px auto 0;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 35px;
+    }
+
+    .contact-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-info h3,
+    .contact-info p {
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        width: 100%;
+        text-align: left;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+}
