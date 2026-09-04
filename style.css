@@ -1936,3 +1936,54 @@ header {
         width: 100%;
     }
 }
+/* =========================================
+   MOBILE CONTACT INFO ALIGNMENT FIX
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    .contact-info {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .contact-info .contact-item {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 28px auto !important;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .contact-info .contact-item:nth-child(1),
+    .contact-info .contact-item:nth-child(2),
+    .contact-info .contact-item:nth-child(3),
+    .contact-info .contact-item:nth-child(4) {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .contact-info .contact-icon {
+        flex-shrink: 0;
+        margin-left: 0 !important;
+        margin-right: 25px !important;
+    }
+
+    .contact-info .contact-details {
+        flex: 1;
+        min-width: 0;
+        text-align: left;
+    }
+
+    .contact-info .contact-details h4,
+    .contact-info .contact-details p,
+    .contact-info .contact-details a {
+        text-align: left;
+        margin-left: 0 !important;
+    }
+}
